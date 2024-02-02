@@ -1,2 +1,38 @@
+ body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
 
-/* Your CSS Code here. */
+input{
+	text-align:center;
+	margin-left:2.2rem;
+	padding:30px 40px;
+	font-size:20px;
+	font-weight:300;
+}
+
+
+.grid-container{
+	display:grid;
+	grid-template-columns:repeat(4, 1fr);
+	
+	width:80%;
+	height:80%;
+	margin:auto;
+}
+
+.grid-container>button{
+	border:1px solid black;
+	padding:30px;
+	text-align:center;
+	cursor:pointer;
+	font-size:30px;
+}
+#ans{
+	background-color:blue;
+	color:white;
+}
+	

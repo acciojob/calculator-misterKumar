@@ -7,6 +7,38 @@
 </head>
 
 <body>
+
+	<div class="calculator">
+
+	<input type="text" id="input" readonly>
+
+		<div class="grid-container">
+        <!-- You can add content inside each grid item -->
+        <button id="clr" onclick="clearDisplay()">C</button>
+        <button id="divide" onclick="appendtoDisplay('/')">/</button>
+        <button id="multiply" onclick="appendtoDisplay('*')">*</button>
+        <button id="clear" onclick="clearEntry()">←</button>
+        <button id="block7" onclick="appendtoDisplay('7')">7</button>
+        <button id="block8" onclick="appendtoDisplay('8')">8</button>
+        <button id="block9" onclick="appendtoDisplay('9')">9</button>
+        <button id="minus" onclick="appendtoDisplay('-')">-</button>
+        <button id="block4" onclick="appendtoDisplay('4')">4</button>
+        <button id="block5" onclick="appendtoDisplay('5')">5</button>
+        <button id="block6" onclick="appendtoDisplay('6')">6</button>
+        <button id="plus" onclick="appendtoDisplay('+')">+</button>
+        <button id="block1" onclick="appendtoDisplay('1')">1</button>
+        <button id="block2" onclick="appendtoDisplay('2')">2</button>
+        <button id="block3" onclick="appendtoDisplay('3')">3</button>
+        <button id="dot" onclick="appendtoDisplay('.')">.</button>
+        <button id="para-left" onclick="appendtoDisplay('(')">(</button>
+        <button id="block0" onclick="appendtoDisplay('0')">0</button>
+        <button id="para-right" onclick="appendtoDisplay(')')">)</button>
+        <button id="ans" onclick="calculate()">=</button>
+    </div>
+
+</div>
+
+	
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
